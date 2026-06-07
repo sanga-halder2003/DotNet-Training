@@ -1,4 +1,6 @@
-﻿using System;
+// ISP: Librarian gets only librarian operations.
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
