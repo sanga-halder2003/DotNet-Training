@@ -1,4 +1,7 @@
-﻿using System;
+// OCP + Polymorphism:
+// New ride type added without modifying Ride class.
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
