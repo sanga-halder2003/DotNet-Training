@@ -1,4 +1,7 @@
-﻿using System;
+// ISP: Reader only gets methods
+// related to reading and borrowing books.
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
