@@ -1,4 +1,7 @@
-﻿using HospitalManagement.Interfaces;
+// OCP: Added a new payment method
+// without changing existing payment classes.
+
+using HospitalManagement.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
