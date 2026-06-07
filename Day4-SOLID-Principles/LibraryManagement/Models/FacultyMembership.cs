@@ -1,4 +1,7 @@
-﻿using System;
+// OCP: New membership type added
+// without modifying Member class.
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
