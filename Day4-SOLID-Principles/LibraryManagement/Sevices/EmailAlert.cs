@@ -1,4 +1,6 @@
-﻿using LibraryManagement.Interfaces;
+// OCP: Alert implementations can be extended
+// without changing existing code.
+using LibraryManagement.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
