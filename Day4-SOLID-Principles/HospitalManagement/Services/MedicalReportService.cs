@@ -1,4 +1,5 @@
-﻿using System;
+// SRP: Responsible only for generating medical reports.
+using System;
 using System.Collections.Generic;
 using System.Text;
 
