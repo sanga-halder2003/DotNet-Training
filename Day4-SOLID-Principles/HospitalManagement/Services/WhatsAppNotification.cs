@@ -1,4 +1,7 @@
-﻿using HospitalManagement.Interfaces;
+// OCP: Extended functionality by adding a new class
+// instead of modifying EmailNotification.
+
+using HospitalManagement.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
