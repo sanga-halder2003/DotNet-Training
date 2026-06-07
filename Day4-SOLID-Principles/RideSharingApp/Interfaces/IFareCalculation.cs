@@ -1,4 +1,7 @@
-﻿using System;
+// OCP: New fare calculators can be added
+// without modifying existing ones.
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
