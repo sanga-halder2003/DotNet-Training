@@ -1,0 +1,38 @@
+﻿@page
+@model BankLoanManagement.UI.Pages.Customers.CreateModel
+
+<div style="width: 500px; margin: 40px auto; padding: 25px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 0 10px #ccc; font-family: Arial;">
+
+    <h2 style="text-align:center; margin-bottom:25px;">Add Customer</h2>
+
+    <form method="post">
+
+        <label>Full Name</label>
+        <input asp-for="Customer.FullName" style="width:100%; padding:8px; margin-bottom:15px;" />
+
+        <label>Email</label>
+        <input asp-for="Customer.Email" style="width:100%; padding:8px; margin-bottom:15px;" />
+
+        <label>Mobile Number</label>
+        <input asp-for="Customer.MobileNumber" style="width:100%; padding:8px; margin-bottom:15px;" />
+
+        <label>Address</label>
+        <input asp-for="Customer.Address" style="width:100%; padding:8px; margin-bottom:15px;" />
+
+        <label>PAN Number</label>
+        <input asp-for="Customer.PANNumber" style="width:100%; padding:8px; margin-bottom:15px;" />
+
+        <label>Annual Income</label>
+        <input asp-for="Customer.AnnualIncome" style="width:100%; padding:8px; margin-bottom:20px;" />
+
+        <button type="submit" style="width:100%; padding:10px; background:#0d6efd; color:white; border:none; border-radius:5px;">
+            Save Customer
+        </button>
+    </form>
+
+    <br />
+
+    <div style="text-align:center;">
+        <a asp-page="Index">Back to Customer List</a>
+    </div>
+</div>
