@@ -1,0 +1,36 @@
+﻿@model SecureProductDashboard.Models.Product
+
+<div class="container mt-4">
+
+    <h2>Edit Product</h2>
+
+    <form asp-action="Edit" method="post">
+
+        <input asp-for="Id" type="hidden" />
+
+        <div class="mb-3">
+            <label>Name</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Price</label>
+            <input asp-for="Price" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Category</label>
+            <input asp-for="Category" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+            Update Product
+        </button>
+
+        <a asp-action="Index" class="btn btn-secondary">
+            Back
+        </a>
+
+    </form>
+
+</div>
